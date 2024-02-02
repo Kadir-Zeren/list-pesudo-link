@@ -50,3 +50,34 @@ ul.pseudo li:active {
 ul.pseudo li:not(odd) {
   background-color: aqua;
 }
+
+input:focus {
+  background-color: tomato;
+  color: rgb(0, 0, 0);
+  border: 4px dashed white;
+  outline: none;
+}
+
+nav.links a:link {
+  color: rgb(255, 38, 0);
+  font-weight: 900;
+}
+nav.links a:visited {
+  /* color: rgb(0, 0, 0); */
+}
+nav.links a:active {
+  color: rgb(255, 255, 255);
+}
+
+nav.links a:hover {
+  color: chartreuse;
+  text-decoration: none;
+}
+nav.links a {
+  color: rgb(19, 4, 230);
+  text-decoration: none;
+}
+nav.links a:hover {
+  color: pink;
+  text-decoration: none;
+}
