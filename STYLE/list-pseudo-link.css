@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-ul {
+ul.Languages {
   font-family: "Single Day", cursive;
   list-style-type: circle;
   list-style-type: square;
@@ -18,4 +18,35 @@ h2 i {
 
 .fa-solid {
   color: red;
+}
+ul.pseudo li {
+  background-color: gray;
+  font-weight: 700;
+}
+ul.pseudo li:first-child {
+  color: blue;
+}
+ul.pseudo li:last-child {
+  color: green;
+}
+ul.pseudo li:nth-child(5) {
+  color: purple;
+}
+ul.pseudo li:nth-child(odd) {
+  color: hotpink;
+  background-color: lightgray;
+}
+ul.pseudo li:nth-child(even) {
+  color: lightsalmon;
+}
+ul.pseudo li:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+ul.pseudo li:active {
+  background-color: green;
+}
+ul.pseudo li:not(odd) {
+  background-color: aqua;
 }
